@@ -446,9 +446,9 @@ section {
   gap: 14px;
 }
 .bento-card {
-  border: 1px solid rgba(196, 149, 106, 0.18);
+  border: 1px solid rgba(196, 149, 106, 0.28);
   border-radius: var(--radius);
-  background: var(--creme);
+  background: var(--creme2);
   padding: 1.8rem;
   display: flex;
   flex-direction: column;
@@ -526,6 +526,14 @@ section {
   color: var(--texto2);
   margin-top: 0.4rem;
   line-height: 1.5;
+}
+.bento-emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  opacity: 0.55;
 }
 .online-section {
   background: linear-gradient(135deg, var(--marrom) 0%, var(--marrom2) 100%);
